@@ -24,4 +24,7 @@ alias ncdu='ncdu --color dark'
 alias vim='nvim'
 alias config='/usr/bin/git --git-dir=/home/gasta/.cfg/ --work-tree=/home/gasta'
 alias yay="paru"
-alias yays="paru -Sl | awk '{print \$2(\$4==\"\" ? \"\" : \" *\")}' | fzf --multi --preview 'paru -Si {1}' | cut -d \" \" -f 1 | xargs -ro paru -S" \
+alias yays="paru -Sl | awk '{print \$2(\$4==\"\" ? \"\" : \" *\")}' | fzf --multi --preview 'paru -Si {1}' | cut -d \" \" -f 1 | xargs -ro paru -S"
+
+alias c="cd ~/.config"
+alias y="yazi"
