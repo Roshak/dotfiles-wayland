@@ -12,7 +12,7 @@
         "custom/media"
     ],
     "modules-center": [
-        "sway/window"
+
     ],
     "modules-right": [
         "mpd",
@@ -42,15 +42,15 @@
     },
     "hyprland/workspaces": {
         "format": "{icon} {windows} ",
-	"format-windows-separator": "",
-	"window-rewrite-default": "",
-  	"window-rewrite": {
+        "format-windows-separator": "",
+        "window-rewrite-default": "",
+        "window-rewrite": {
     	    "title<.*youtube.*>": "", // Windows whose titles contain "youtube"
-            "class<firefox>": "", // Windows whose classes are "firefox"
+          "class<firefox>": "", // Windows whose classes are "firefox"
     	    "class<firefox> title<.*github.*>": "", // Windows whose class is "firefox" and title contains "github". Note that "class" always comes first.
     	    "kitty": "", 
-    	    "code": "󰨞"
-	}
+          "code": "󰨞"
+        }
     },
     "mpd": {
         "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
@@ -152,7 +152,7 @@
         "tooltip-format": "{ifname} {essid} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-	"on-click": "iwgtk"
+        "on-click": "iwgtk"
         //"format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
